@@ -1,0 +1,370 @@
+[
+	{
+		"id": "978-0142427507",
+		"author": {
+			"id": 0,
+			"name": "L Frank Baum"
+		},
+		"title": "The Wizard of Oz",
+		"cover": "the-wizard-of-oz.jpg",
+		"summary": "Dorothy thinks she's lost forever when a tornado whirls her and her dog, Toto, into a magical world. To get home, she must find the wonderful wizard in the Emerald City of Oz. On the way she meets the Scarecrow, the Tin Woodman and the Cowardly Lion. But the Wicked Witch of the West has her own plans for the new arrival... will Dorothy ever see Kansas again?",
+		"genre": {
+			"id": 0,
+			"label": "Science Fiction & Fantasy"
+		},
+		"status": 0,
+		"borrower": null
+	},
+	{
+		"id": "978-0679720201",
+		"author": {
+			"id": 1,
+			"name": "Albert Camus"
+		},
+		"title": "The Stranger",
+		"cover": "the-stranger.jpg",
+		"summary": "Through the story of an ordinary man unwittingly drawn into a senseless murder on an Algerian beach, Camus explored what he termed \"the nakedness of man faced with the absurd.\"",
+		"genre": {
+			"id": 1,
+			"label": "French Literature"
+		},
+		"status": 1,
+		"borrower": null
+	},
+	{
+		"id": "978-0785814535",
+		"author": {
+			"id": 2,
+			"name": "Edgar Allan Poe"
+		},
+		"title": "Edgar Allan Poe: Complete Tales and Poems",
+		"cover": "edgar-allan-poe-complete-tales-and-poems.jpg",
+		"summary": "The life of American writer Edgar Allan Poe was characterized by a dramatic series of successes and failures, breakdowns and recoveries, personal gains and hopes dashed through, despite which he created some of the finest literature the world has ever known. Over time his works have influenced such major creative forces as the French poets Charles Baudelaire and Andre Gide, filmmaker D.W. Griffith and modern literary legend Allen Ginsberg.",
+		"genre": {
+			"id": 2,
+			"label": "Classic Literature & Fiction"
+		},
+		"status": 0,
+		"borrower": null
+	},
+	{
+		"id": "978-0060850524",
+		"author": {
+			"id": 3,
+			"name": "Aldous Huxley"
+		},
+		"title": "Brave New World",
+		"cover": "brave-new-world.jpg",
+		"summary": "Now more than ever: Aldous Huxley's enduring \"masterpiece ... one of the most prophetic dystopian works of the 20th century\" (Wall Street Journal) must be read and understood by anyone concerned with preserving the human spirit in the face of our \"brave new world\"",
+		"genre": {
+			"id": 0,
+			"label": "Science Fiction & Fantasy"
+		},
+		"status": 0,
+		"borrower": null
+	},
+	{
+		"id": "978-0399501487",
+		"author": {
+			"id": 4,
+			"name": "William Golding"
+		},
+		"title": "Lord of the Flies",
+		"cover": "lord-of-the-flies.jpg",
+		"summary": "Golding’s iconic 1954 novel, now with a new foreword by Lois Lowry, remains one of the greatest books ever written for young adults and an unforgettable classic for readers of any age.",
+		"genre": {
+			"id": 2,
+			"label": "Classic Literature & Fiction"
+		},
+		"status": 1,
+		"borrower": null
+	},
+	{
+		"id": "978-1503250789",
+		"author": {
+			"id": 5,
+			"name": "William Shakespeare"
+		},
+		"title": "A Midsummer Night's Dream",
+		"cover": "a-midsummer-night-s-dream.jpg",
+		"summary": "A Midsummer Night's Dream is a comedy play by William Shakespeare, believed to have been written between 1590 and 1596. It portrays the events surrounding the marriage of the Duke of Athens, Theseus, and Hippolyta. These include the adventures of four young Athenian lovers and a group of six amateur actors (mechanical), who are controlled and manipulated by the fairies who inhabit the forest in which most of the play is set. The play is one of Shakespeare's most popular works for the stage and is widely performed across the world.",
+		"genre": {
+			"id": 2,
+			"label": "Classic Literature & Fiction"
+		},
+		"status": 1,
+		"borrower": null
+	},
+	{
+		"id": "978-1505259568",
+		"author": {
+			"id": 5,
+			"name": "William Shakespeare"
+		},
+		"title": "Romeo and Juliet",
+		"cover": "romeo-and-juliet.jpg",
+		"summary": "Romeo and Juliet is a tragedy written by William Shakespeare early in his career about two young star-crossed lovers whose deaths ultimately reconcile their feuding families. It was among Shakespeare's most popular plays during his lifetime and, along with Hamlet, is one of his most frequently performed plays. Today, the title characters are regarded as archetypal young lovers. Romeo and Juliet belongs to a tradition of tragic romances stretching back to antiquity.",
+		"genre": {
+			"id": 2,
+			"label": "Classic Literature & Fiction"
+		},
+		"status": 0,
+		"borrower": null
+	},
+	{
+		"id": "978-0140177398",
+		"author": {
+			"id": 6,
+			"name": "John Steinbeck"
+		},
+		"title": "Of Mice and Men",
+		"cover": "of-mice-and-men.jpg",
+		"summary": "They are an unlikely pair: George is \"small and quick and dark of face\"; Lennie, a man of tremendous size, has the mind of a young child. Yet they have formed a \"family,\" clinging together in the face of loneliness and alienation.",
+		"genre": {
+			"id": 2,
+			"label": "Classic Literature & Fiction"
+		},
+		"status": 0,
+		"borrower": null
+	},
+	{
+		"id": "978-0143039433",
+		"author": {
+			"id": 6,
+			"name": "John Steinbeck"
+		},
+		"title": "The Grapes of Wrath",
+		"cover": "the-grapes-of-wrath.jpg",
+		"summary": "The Pulitzer Prize-winning epic of the Great Depression, a book that galvanized—and sometimes outraged—millions of readers.",
+		"genre": {
+			"id": 2,
+			"label": "Classic Literature & Fiction"
+		},
+		"status": 1,
+		"borrower": null
+	},
+	{
+		"id": "978-1853264016",
+		"author": {
+			"id": 7,
+			"name": "William Wordsworth"
+		},
+		"title": "The Collected Poems of William Wordsworth",
+		"cover": "the-collected-poems-of-william-wordsworth.jpg",
+		"summary": "William Wordsworth (1771-1850) is the foremost of the English Romantic poets. He was much influenced by the events of the French Revolution in his youth, and he deliberately broke away from the artificial diction of the Augustan and neo-classical tradition of the eighteenth century.",
+		"genre": {
+			"id": 3,
+			"label": "Poetry"
+		},
+		"status": 0,
+		"borrower": null
+	},
+	{
+		"id": "978-0547928227",
+		"author": {
+			"id": 8,
+			"name": "J. R. R. Tolkien"
+		},
+		"title": "The Hobbit",
+		"cover": "the-hobbit.jpg",
+		"summary": "Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling any farther than his pantry or cellar. But his contentment is disturbed when the wizard Gandalf and a company of dwarves arrive on his doorstep one day to whisk him away on an adventure.",
+		"genre": {
+			"id": 0,
+			"label": "Science Fiction & Fantasy"
+		},
+		"status": 0,
+		"borrower": null
+	},
+	{
+		"id": "978-0547928210",
+		"author": {
+			"id": 8,
+			"name": "J. R. R. Tolkien"
+		},
+		"title": "The Fellowship of the Ring",
+		"cover": "the-fellowship-of-the-ring.jpg",
+		"summary": "The first volume in J.R.R. Tolkien's epic adventure THE LORD OF THE RINGS. One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.",
+		"genre": {
+			"id": 0,
+			"label": "Science Fiction & Fantasy"
+		},
+		"status": 0,
+		"borrower": null
+	},
+	{
+		"id": "978-0547928203",
+		"author": {
+			"id": 8,
+			"name": "J. R. R. Tolkien"
+		},
+		"title": "The Two Towers",
+		"cover": "the-two-towers.jpg",
+		"summary": "The second volume in J.R.R. Tolkien's epic adventure THE LORD OF THE RINGS. One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.",
+		"genre": {
+			"id": 0,
+			"label": "Science Fiction & Fantasy"
+		},
+		"status": 1,
+		"borrower": null
+	},
+	{
+		"id": "978-0547928197",
+		"author": {
+			"id": 8,
+			"name": "J. R. R. Tolkien"
+		},
+		"title": "The Return of the King",
+		"cover": "the-return-of-the-king.jpg",
+		"summary": "The third volume in J.R.R. Tolkien's epic adventure THE LORD OF THE RINGS. One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.",
+		"genre": {
+			"id": 0,
+			"label": "Science Fiction & Fantasy"
+		},
+		"status": 0,
+		"borrower": null
+	},
+	{
+		"id": "978-0679720218",
+		"author": {
+			"id": 1,
+			"name": "Albert Camus"
+		},
+		"title": "The Plague",
+		"cover": "the-plague.jpg",
+		"summary": "A haunting tale of human resilience in the face of unrelieved horror, Camus' novel about a bubonic plague ravaging the people of a North African coastal town is a classic of twentieth-century literature.",
+		"genre": {
+			"id": 1,
+			"label": "French Literature"
+		},
+		"status": 0,
+		"borrower": null
+	},
+	{
+		"id": "978-0811216548",
+		"author": {
+			"id": 9,
+			"name": "Louis-Ferdinand Céline"
+		},
+		"title": "Journey to the End of the Night",
+		"cover": "journey-to-the-end-of-the-night.jpg",
+		"summary": "The dark side of On the Road: instead of seeking kicks, the French narrator travels the globe to find an ever deeper disgust for life.",
+		"genre": {
+			"id": 1,
+			"label": "French Literature"
+		},
+		"status": 1,
+		"borrower": null
+	},
+	{
+		"id": "978-0140446456",
+		"author": {
+			"id": 10,
+			"name": "Blaise Pascal"
+		},
+		"title": "Pensees",
+		"cover": "pensees.jpg",
+		"summary": "Blaise Pascal, the precociously brilliant contemporary of Descartes, was a gifted mathematician and physicist, but it is his unfinished apologia for the Christian religion upon which his reputation now rests. The Penseés is a collection of philosohical fragments, notes and essays in which Pascal explores the contradictions of human nature in pscyhological, social, metaphysical and - above all - theological terms.",
+		"genre": {
+			"id": 1,
+			"label": "French Literature"
+		},
+		"status": 0,
+		"borrower": null
+	},
+	{
+		"id": "978-0996584838",
+		"author": {
+			"id": 11,
+			"name": "Mark Twain"
+		},
+		"title": "The Adventures of Tom Sawyer",
+		"cover": "the-adventures-of-tom-sawyer.jpg",
+		"summary": "The classic, in all its glory – though what many forget is how well this tale of American boyhood holds up even after nearly 150 years. Tom Sawyer, his best friend Huck Finn, his would-be girlfriend Becky Thatcher, and his aunt Polly teach and learn about life, death, race and painting fences in a \"typical\" 19th century Midwestern town that bears a striking resemblance to Twain’s hometown of Hannibal, Missouri.",
+		"genre": {
+			"id": 2,
+			"label": "Classic Literature & Fiction"
+		},
+		"status": 2,
+		"borrower": null
+	},
+	{
+		"id": "978-1402754258",
+		"author": {
+			"id": 12,
+			"name": "Charles Dickens"
+		},
+		"title": "Oliver Twist",
+		"cover": "oliver-twist.jpg",
+		"summary": "Thanks to its colourful cast of characters and gritty portrayal of street life in Victorian London, Dickens Oliver Twist has captured readers hearts for over 150 years. Todays children will love it too. Oliver, a poor orphan, escapes the miserable workhouse where he was born only to fall into the clutches of a band of pickpockets led by the odious Fagin. Yet no amount of cruelty can destroy his purity... and through his goodness, he finds salvation.",
+		"genre": {
+			"id": 2,
+			"label": "Classic Literature & Fiction"
+		},
+		"status": 0,
+		"borrower": null
+	},
+	{
+		"id": "978-1503290563",
+		"author": {
+			"id": 13,
+			"name": "Jane Austen"
+		},
+		"title": "Pride and Prejudice",
+		"cover": "pride-and-prejudice.jpg",
+		"summary": "Pride and Prejudice is a novel of manners by Jane Austen, first published in 1813. The story follows the main character, Elizabeth Bennet, as she deals with issues of manners, upbringing, morality, education, and marriage in the society of the landed gentry of the British Regency.",
+		"genre": {
+			"id": 2,
+			"label": "Classic Literature & Fiction"
+		},
+		"status": 3,
+		"borrower": null
+	},
+	{
+		"id": "978-1514736555",
+		"author": {
+			"id": 14,
+			"name": "Oscar Wilde"
+		},
+		"title": "The Picture of Dorian Gray",
+		"cover": "the-picture-of-dorian-gray.jpg",
+		"summary": "The Picture of Dorian Gray is an 1891 philosophical novel by writer and playwright Oscar Wilde. First published as a complete story in the July 1890 issue of Lippincott's Monthly Magazine, the editors feared the story was indecent, and without Wilde's knowledge, deleted five hundred words before publication.",
+		"genre": {
+			"id": 0,
+			"label": "Science Fiction & Fantasy"
+		},
+		"status": 1,
+		"borrower": null
+	},
+	{
+		"id": "978-0486454115",
+		"author": {
+			"id": 15,
+			"name": "Fyodor Dostoyevsky"
+		},
+		"title": "Crime and Punishment",
+		"cover": "crime-and-punishment.jpg",
+		"summary": "CRIME AND PUNISHMENT by Fyodor Mikhailovitch Dostoevsky (1821-1881) is an unparalleled psychological study of the criminal mind, conscience, guilt, and redemption, coupled with an examination of spiritual purity and devotion.",
+		"genre": {
+			"id": 2,
+			"label": "Classic Literature & Fiction"
+		},
+		"status": 0,
+		"borrower": null
+	},
+	{
+		"id": "978-0743273565",
+		"author": {
+			"id": 16,
+			"name": "F. Scott Fitzgerald"
+		},
+		"title": "The Great Gatsby",
+		"cover": "the-great-gatsby.jpg",
+		"summary": "The Great Gatsby, F. Scott Fitzgerald’s third book, stands as the supreme achievement of his career. This exemplary novel of the Jazz Age has been acclaimed by generations of readers.",
+		"genre": {
+			"id": 2,
+			"label": "Classic Literature & Fiction"
+		},
+		"status": 0,
+		"borrower": null
+	}
+]

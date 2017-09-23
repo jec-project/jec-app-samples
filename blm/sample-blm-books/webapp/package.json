@@ -1,0 +1,7 @@
+{
+  "name": "sample-blm-books",
+  "version": "1.0.0",
+  "description": "Book Library Manager sample 'books' microservice.",
+  "author": "ONSOFT SYSTEMS",
+  "license": "MIT"
+}

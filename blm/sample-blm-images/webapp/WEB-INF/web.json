@@ -1,0 +1,11 @@
+{
+	"webapp": {
+		"name": "sample-blm-images",
+		"description": "Serves static image resources for the Book Library Manager sample project.",
+		"version": "1.0.0",
+		"contextRoot": "sample-blm-images",
+		"jslets": {
+			"enableAutowire": true
+		}
+	}
+}

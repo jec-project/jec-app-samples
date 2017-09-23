@@ -1,0 +1,35 @@
+#####################################
+# BLM Sample Project .gitignore
+# Please maintain alphabetical order!
+#####################################
+
+#####################################
+# Utilities
+#####################################
+
+# Ignore TypeScript temp file
+*tscommand*.*
+
+# Ignore VSCE folder
+*/**/.vscode
+
+# Ignore TSC cache folder 
+*/**/.tscache
+
+#####################################
+# node_modules
+#####################################
+
+# Ignore 'node_modules' folder
+*/**/node_modules
+
+#####################################
+# *.js
+#####################################
+
+# Ignore JavaScript files in src folders
+*/**/src/**/*.js
+
+# Ignore JavaScript files in webapp folders
+*/**/webapp/**/*.js
+!systemjs.config.js

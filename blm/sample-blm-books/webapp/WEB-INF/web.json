@@ -1,0 +1,8 @@
+{
+	"webapp": {
+		"name": "sample-blm-books",
+    "description": "Book Library Manager sample 'books' microservice.",
+		"version": "1.0.0",
+		"contextRoot": "sample-blm-books"
+	}
+}

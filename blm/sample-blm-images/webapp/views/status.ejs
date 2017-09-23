@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>GlassCat EJP Status</title>
+        <style>
+            header, footer{
+                background: #222;
+                color: #fff;
+                font-weight: bold;
+                padding: 0;
+            }
+            h1{
+                padding: 5px 10px;
+            }
+            h3{
+                padding: 2px 8px;
+            }
+            dt{
+                background: #222;
+                color: #fff;
+                padding: 2px 8px;
+                width: 200px;
+                float: left;
+                margin-right: 10px;
+            }
+            dl, dd{
+                padding: 2px 0;
+            }
+            hr{
+                border-top: 1px solid #222;
+                border-bottom: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1><%= title %></h1>
+        </header>
+        <hr/>
+        <dl>
+            <dt>type</dt>
+            <dd><%= type %></dd>
+        </dl>
+        <dl>
+            <dt>message</dt>
+            <dd><%= message %></dd>
+        </dl>
+        <dl>
+            <dt>description</dt>
+            <dd><%= description %></dd>
+        </dl>
+        <hr/>
+        <footer>
+            <H3><%= serverInfo %></H3>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "sample-blm-images",
+  "version": "1.0.0",
+  "description": "Serves static image resources for the Book Library Manager sample project.",
+  "author": "ONSOFT SYSTEMS",
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+{
+	"webapp": {
+		"name": "sample-blm-app",
+    "description": "Presentation layer of the Book Library Manager sample app.",
+		"version": "1.0.0",
+		"contextRoot": "sample-blm-app",
+		"welcomeFile": "index.html",
+		"jslets": {
+			"enableAutowire": true
+		}
+	}
+}

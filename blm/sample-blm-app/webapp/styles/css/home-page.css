@@ -1,0 +1,14 @@
+/* sample-blm-app main styles */
+
+body{
+  margin: 1.5em;
+  font-size: 1.5em;
+}
+h1{
+  border-bottom: thin solid #000;
+}
+.main-logo{
+  width: 1em;
+  padding-right: 0.2em;
+  margin-bottom: -0.15em;
+}

@@ -1,0 +1,44 @@
+<h1><md-icon>search</md-icon> Search & Find</h1>
+
+<form *ngIf="resultLength === 0">
+  <md-form-field>
+    <input mdInput placeholder="Search for books"
+                   type="search" [formControl]="token">
+    <md-error>This field is required</md-error>
+  </md-form-field>
+  <button md-mini-fab color="primary" (click)="doSearch()">
+    <md-icon>search</md-icon>
+  </button>
+</form>
+
+<md-card class="example-card" *ngIf="resultLength !== 0">
+  <md-card-header>
+    <md-card-title>
+      Search result for <strong>{{token.value}}</strong>
+    </md-card-title>
+    <span class="tool-bar-space"></span>
+    <md-paginator [length]="resultLength"
+                  [pageSize]="pageSize"
+                  (page)="pageChange($event)">
+    </md-paginator>
+    <button md-mini-fab color="primary" (click)="resetSearch()">
+      <md-icon>close</md-icon>
+    </button>
+  </md-card-header>
+  <md-card-content>
+    <md-grid-list cols="4" rowHeight="250px">
+      <md-grid-tile *ngFor="let book of books">
+        <img src="http://localhost:3003/sample-blm-images/covers/{{book.cover}}"
+             class="book-tile"
+             alt="{{book.title}}"
+             (click)="showDetails(book)">
+          <md-grid-tile-footer>
+            <h3 md-line>{{book.title}}</h3>
+            <h4 md-line>{{book.author.name}}</h4>
+            <span><md-icon>flag</md-icon></span>
+        </md-grid-tile-footer>
+      </md-grid-tile>
+    </md-grid-list>
+  </md-card-content>
+</md-card>
+

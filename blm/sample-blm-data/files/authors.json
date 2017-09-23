@@ -1,0 +1,105 @@
+[
+	{
+		"id": 0,
+		"name": "L Frank Baum",
+		"biography": "Lyman Frank Baum was born in Chittenango, New York, on May 15, 1856. Over the course of his life, Baum raised fancy poultry, sold fireworks, managed an opera house, opened a department store, and an edited a newspaper before finally turning to writing. In 1900, he published his best known book The Wonderful Wizard of Oz. Eventually he wrote fifty-five novels, including thirteen Oz books, plus four “lost” novels, eighty-three short stories, more than two hundred poems, an unknown number of scripts, and many miscellaneous writings. Baum died on May 6, 1919. He is buried in the Forest Lawn Memorial Park Cemetery, in Glendale, California.",
+		"picture": "L_Frank_Baum.jpg"
+	},
+	{
+		"id": 1,
+		"name": "Albert Camus",
+		"biography": "Albert Camus (French: [albɛʁ kamy]; 7 November 1913 - 4 January 1960) was a French philosopher, author, and journalist. His views contributed to the rise of the philosophy known as absurdism. He wrote in his essay The Rebel that his whole life was devoted to opposing the philosophy of nihilism while still delving deeply into individual freedom. He won the Nobel Prize in Literature in 1957.",
+		"picture": "Albert_Camus.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Edgar Allan Poe",
+		"biography": "Author, poet, and literary critic, Edgar Allan Poe is credited with pioneering the short story genre, inventing detective fiction, and contributing to the development of science fiction. However, Poe is best known for his works of the macabre, including such infamous titles as The Raven, The Pit and the Pendulum, The Murders in the Rue Morgue, Lenore, and The Fall of the House of Usher. Part of the American Romantic Movement, Poe was one of the first writers to make his living exclusively through his writing, working for literary journals and becoming known as a literary critic. His works have been widely adapted in film. Edgar Allan Poe died of a mysterious illness in 1849 at the age of 40.",
+		"picture": "Edgar_Allan_Poe.jpg"
+	},
+	{
+		"id": 3,
+		"name": "Aldous Huxley",
+		"biography": "Aldous Huxley (1894-1963) is the author of the classic novels Island, Eyeless in Gaza, and The Genius and the Goddess, as well as such critically acclaimed nonfiction works as The Devils of Loudun, The Doors of Perception, and The Perennial Philosophy. Born in Surrey, England, and educated at Oxford, he died in Los Angeles.",
+		"picture": "Aldous_Huxley.jpg"
+	},
+	{
+		"id": 4,
+		"name": "William Golding",
+		"biography": "Born in Cornwall, England, William Golding started writing at the age of seven. Though he studied natural sciences at Oxford to please his parents, he also studied English and published his first book, a collection of poems, before finishing college. He served in the Royal Navy during World War II, participating in the Normandy invasion. Golding's other novels include Lord of the Flies, The Inheritors, The Free Fall, Pincher Martin, The Double Tongue, and Rites of Passage, which won the Booker Prize.",
+		"picture": "William_Golding.jpg"
+	},
+	{
+		"id": 5,
+		"name": "William Shakespeare",
+		"biography": "John Shakespeare, a merchant of some standing in his community. William probably went to the King’s New School in Stratford, but he had no university education. In November 1582, at the age of eighteen, he married Anne Hathaway, eight years his senior, who was pregnant with their first child, Susanna. She was born on May 26, 1583. Twins, a boy, Hamnet ( who would die at age eleven), and a girl, Judith, were born in 1585. By 1592 Shakespeare had gone to London working as an actor and already known as a playwright. A rival dramatist, Robert Greene, referred to him as “an upstart crow, beautified with our feathers.” Shakespeare became a principal shareholder and playwright of the successful acting troupe, the Lord Chamberlain’s Men (later under James I, called the King’s Men). In 1599 the Lord Chamberlain’s Men built and occupied the Globe Theater in Southwark near the Thames River. Here many of Shakespeare’s plays were performed by the most famous actors of his time, including Richard Burbage, Will Kempe, and Robert Armin. In addition to his 37 plays, Shakespeare had a hand in others, including Sir Thomas More and The Two Noble Kinsmen, and he wrote poems, including Venus and Adonis and The Rape of Lucrece. His 154 sonnets were published, probably without his authorization, in 1609. In 1611 or 1612 he gave up his lodgings in London and devoted more and more time to retirement in Stratford, though he continued writing such plays as The Tempest and Henry VII until about 1613. He died on April 23 1616, and was buried in Holy Trinity Church, Stratford. No collected edition of his plays was published during his life-time, but in 1623 two members of his acting company, John Heminges and Henry Condell, put together the great collection now called the First Folio.",
+		"picture": "William_Shakespeare.jpg"
+	},
+
+	{
+		"id": 6,
+		"name": "John Steinbeck",
+		"biography": "John Steinbeck (1902-1968), winner of the Nobel Prize in Literature, achieved popular success in 1935 when he published Tortilla Flat. He went on to write more than twenty-five novels, including The Grapes of Wrath and Of Mice and Men.",
+		"picture": "John_Steinbeck.jpg"
+	},
+	{
+		"id": 7,
+		"name": "William Wordsworth",
+		"biography": "William Wordsworth (7 April 1770 – 23 April 1850) was a major English Romantic poet who, with Samuel Taylor Coleridge, helped to launch the Romantic Age in English literature with their joint publication Lyrical Ballads (1798). Wordsworth's magnum opus is generally considered to be The Prelude, a semi-autobiographical poem of his early years that he revised and expanded a number of times. It was posthumously titled and published, before which it was generally known as 'the poem to Coleridge'. Wordsworth was Britain's poet laureate from 1843 until his death from pleurisy on 23 April 1850.",
+		"picture": "William_Wordsworth.jpg"
+	},
+	{
+		"id": 8,
+		"name": "J. R. R. Tolkien",
+		"biography": "J.R.R. Tolkien (1892.1973), beloved throughout the world as the creator of The Hobbit and The Lord of the Rings, was a professor of Anglo-Saxon at Oxford, a fellow of Pembroke College, and a fellow of Merton College until his retirement in 1959. His chief interest was the linguistic aspects of the early English written tradition, but even as he studied these classics he was creating a set of his own.",
+		"picture": "JRR_Tolkien.jpg"
+	},
+	{
+		"id": 9,
+		"name": "Louis-Ferdinand Céline",
+		"biography": "Louis-Ferdinand Céline (French: [selin]) was the pen name of Louis Ferdinand Auguste Destouches (pronounced [detuʃ]; 27 May 1894 – 1 July 1961), a French novelist, pamphleteer and physician. He developed a new style of writing that modernized French literature. His most famous work is the 1932 novel, Journey to the End of the Night. However, Céline's vocal support for the Axis powers during the Second World War and his authorship of some offensively anti-Semitic pamphlets, has meant that his legacy as a cultural icon is a tangled one.",
+		"picture": "Louis_Ferdinand_Celine.jpg"
+	},
+	{
+		"id": 10,
+		"name": "Blaise Pascal",
+		"biography": "Blaise Pascal (/pæˈskæl, pɑːˈskɑːl/; French: [blɛz paskal]; 19 June 1623 – 19 August 1662) was a French mathematician, physicist, inventor, writer and Catholic theologian. He was a child prodigy who was educated by his father, a tax collector in Rouen. Pascal's earliest work was in the natural and applied sciences where he made important contributions to the study of fluids, and clarified the concepts of pressure and vacuum by generalising the work of Evangelista Torricelli. Pascal also wrote in defence of the scientific method. Following a religious experience in late 1654, he began writing influential works on philosophy and theology. His two most famous works date from this period: the Lettres provinciales and the Pensées, the former set in the conflict between Jansenists and Jesuits.",
+		"picture": "Blaise_Pascal.jpg"
+	},
+	{
+		"id": 11,
+		"name": "Mark Twain",
+		"biography": "Mark Twain (1835-1910) was an American humorist, satirist, social critic, lecturer and novelist. He is mostly remembered for his classic novels The Adventures of Huckleberry Finn and The Adventures of Tom Sawyer.",
+		"picture": "Mark_Twain.jpg"
+	},
+	{
+		"id": 12,
+		"name": "Charles Dickens",
+		"biography": "Charles John Huffam Dickens (/ˈdɪkɪnz/; 7 February 1812 – 9 June 1870) was an English writer and social critic. He created some of the world's best-known fictional characters and is regarded by many as the greatest novelist of the Victorian era. His works enjoyed unprecedented popularity during his lifetime, and by the 20th century critics and scholars had recognised him as a literary genius. His novels and short stories enjoy lasting popularity.",
+		"picture": "Charles_Dickens.jpg"
+	},
+	{
+		"id": 13,
+		"name": "Jane Austen",
+		"biography": "Jane Austen (/ˈdʒeɪn ˈɒstɪn/; 16 December 1775 – 18 July 1817) was an English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century. Austen's plots often explore the dependence of women on marriage in the pursuit of favourable social standing and economic security. Her works critique the novels of sensibility of the second half of the 18th century and are part of the transition to 19th-century literary realism.",
+		"picture": "Jane_Austen.jpg"
+	},
+	{
+		"id": 14,
+		"name": "Oscar Wilde",
+		"biography": "Oscar Fingall O'Flahertie Wills Wilde was born in Dublin in 1854. He was educated at Trinity College, Dublin and Magdalen College, Oxford where, a disciple of Pater, he founded an aesthetic cult. In 1884 he married Constance Lloyd, and his two sons were born in 1885 and 1886. His novel, The Picture of Dorian Gray (1891), and social comedies Lady Windermere's Fan (1892), A Woman of No Importance (1893), An Ideal Husband (1895), and The Importance of Being Earnest (1895), established his reputation. In 1895, following his libel action against the Marquess of Queesberry, Wilde was sentenced to two years' imprisonment for homosexual conduct, as a result of which he wrote The Ballad of Reading Gaol (1898), and his confessional letter De Profundis (1905). On his release from prison in 1897 he lived in obscurity in Europe, and died in Paris in 1900.",
+		"picture": "Oscar_Wilde.jpg"
+	},
+	{
+		"id": 15,
+		"name": "Fyodor Dostoyevsky",
+		"biography": "Fyodor Mikhailovich Dostoyevsky (/ˌdɒstəˈjɛfski, ˌdʌs-/; Russian: Фёдор Миха́йлович Достое́вский; IPA: [ˈfʲɵdər mʲɪˈxajləvʲɪtɕ dəstɐˈjɛfskʲɪj]; 11 November 1821 – 9 February 1881), sometimes transliterated Dostoevsky, was a Russian novelist, short story writer, essayist, journalist and philosopher. Dostoyevsky's literary works explore human psychology in the troubled political, social, and spiritual atmosphere of 19th-century Russia. Many of his works are marked by a preoccupation with Christianity, explored through the prism of the individual confronted with life's hardships and beauty.",
+		"picture": "Fyodor_Dostoyevsky.jpg"
+	},
+	{
+		"id": 16,
+		"name": "F. Scott Fitzgerald",
+		"biography": "F. Scott Fitzgerald was one of the major American writers of the twentieth century -- a figure whose life and works embodied powerful myths about our national dreams and aspirations. Fitzgerald was talented and perceptive, gifted with a lyrical style and a pitch-perfect ear for language. He lived his life as a romantic, equally capable of great dedication to his craft and reckless squandering of his artistic capital. He left us one sure masterpiece, The Great Gatsby; a near-masterpiece, Tender Is the Night; and a gathering of stories and essays that together capture the essence of the American experience. His writings are insightful and stylistically brilliant; today he is admired both as a social chronicler and a remarkably gifted artist.",
+		"picture": "F_Scott_Fitzgerald.jpg"
+	}
+]

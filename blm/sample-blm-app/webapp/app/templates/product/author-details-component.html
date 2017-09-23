@@ -1,0 +1,23 @@
+<div class="details-section" *ngIf="!author">
+  Loading...
+</div>
+<div class="details-section" *ngIf="author">
+  
+    <img class="details-image"
+         src="http://localhost:3003/sample-blm-images/authors/{{author.picture}}"/>
+    
+    <md-card class="details-card">
+      <md-card-header>
+        <md-card-title>{{author.name}}</md-card-title>
+      </md-card-header>
+      <md-card-content>
+        <p>{{author.biography}}</p>
+      </md-card-content>
+      <md-card-actions>
+        <button md-button>
+          <md-icon>share</md-icon>
+          Share
+        </button>
+      </md-card-actions>
+    </md-card>
+  </div>
