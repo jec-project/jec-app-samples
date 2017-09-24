@@ -7,7 +7,14 @@ The Book Library Manager _(BLM)_ is a part of the [JavaScript Entreprise Contain
 BLM is a sample project that shows best practices for creating JEC modular applications based on microservices.
 The project is composed of an Angular app which uses REST APIs to call several microservices that render specific data.
 
+
 All BLM Entreprise JavaScript Projects _(EJPs)_ have been created from the default [Wildcat archetypes](https://github.com/pechemann/jec-wildcat-archetypes).
+
+## The Sample Application
+
+The BLM application we will install is a very basic management system. It will provide users access to a book collection with basic functionalities, such as search, books summary and authors biographies.
+
+![Book Library Manager](https://raw.githubusercontent.com/pechemann/jec-app-samples/master/blm/blm-preview.png "Book Library Manager")
 
 ## Requirements
 
@@ -20,7 +27,7 @@ The BLM project needs the following system parameters in order to work correctly
 
 ## Installation
 
-Before you download and unzip the BLM project module, you must have a GlassCat server installed.
+Before you download and unzip the BLM project module, you must have a [GlassCat server](https://github.com/pechemann/jec-glasscat) installed.
 
 1. Copy all projects in the `blm` folder into the GlassCat server `workspace`.
 2. Install Angular dependencies:
@@ -35,10 +42,10 @@ $ npm install
 5. create four HTTP tasks and associate each EJP to one task:
 
 ```bash
-[name/ID: testServer1 - port:3001 - domain: sample-blm-app]
-[name/ID: testServer2 - port:3002 - domain: sample-blm-authors]
-[name/ID: testServer3 - port:3003 - domain: sample-blm-books]
-[name/ID: testServer4 - port:3004 - domain: sample-blm-images]
+[name/ID:testServer1 - port:3001 - domain:sample-blm-app]
+[name/ID:testServer2 - port:3002 - domain:sample-blm-authors]
+[name/ID:testServer3 - port:3003 - domain:sample-blm-books]
+[name/ID:testServer4 - port:3004 - domain:sample-blm-images]
 ```
 
 6. Restart the GlassCat server.
