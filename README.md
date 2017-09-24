@@ -1,4 +1,4 @@
-#JEC Sample Projects
+# JEC Sample Projects
 
 JEC Sample Projects are a part of the [JavaScript Entreprise Container][jec-url] projects.
 
@@ -9,7 +9,7 @@ The following table sum up the list of available sample projects:
 
 | Project | Repository | Description |
 | ------- | ---------- | ----------- |
-| Book Library Manager | [blm](https://github.com/pechemann/jec-app-samples/tree/master/blm) | A modular project that show how to create scalable applications based upon microservices. |
+| Book Library Manager | [jec-app-samples/blm](https://github.com/pechemann/jec-app-samples/tree/master/blm) | A modular project that show how to create scalable applications based upon microservices. |
 
 
 ## Requirements
