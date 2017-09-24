@@ -1,14 +1,20 @@
 #JEC Sample Projects
 
-The JEC Sample Projects is a part of the [JavaScript Entreprise Container][jec-url] projects.
+JEC Sample Projects are a part of the [JavaScript Entreprise Container][jec-url] projects.
 
 [![][jec-logo]][jec-url]
 
+This repository contains many different sample applications that demonstrate JEC features.
+The following table sum up the list of available sample projects:
+
+| Project | Repository | Description |
+| ------- | ---------- | ----------- |
+| Book Library Manager | [blm](https://github.com/pechemann/jec-app-samples/tree/master/blm) | A modular project that show how to create scalable applications based upon microservices. |
 
 
 ## Requirements
 
-The BLM project needs the following system parameters in order to work correctly:
+All JEC sample projects need the following system parameters in order to work correctly:
 
 - JEC 1+ _(GlassCat)_
 - Node 6+
@@ -17,7 +23,7 @@ The BLM project needs the following system parameters in order to work correctly
 
 ## License
 
-This BLM Project is licensed under Apache 2.0. Full license text is available in [LICENSE](LICENSE).
+All JEC sample projects are licensed under Apache 2.0. Full license text is available in [LICENSE](LICENSE).
 
 ```
 Copyright 2016-2017 Pascal ECHEMANN.
