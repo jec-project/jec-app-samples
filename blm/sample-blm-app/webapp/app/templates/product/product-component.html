@@ -1,18 +1,18 @@
-<h1><md-icon>book</md-icon> {{bookTitle}}</h1>
+<h1><mat-icon>book</mat-icon> {{bookTitle}}</h1>
 
-<button md-mini-fab
+<button mat-mini-fab
         class="close-details-button"
         color="primary" (click)="closeDetails()">
-  <md-icon>close</md-icon>
+  <mat-icon>close</mat-icon>
 </button>
 
-<nav md-tab-nav-bar>
-  <a md-tab-link
+<nav mat-tab-nav-bar>
+  <a mat-tab-link
      *ngFor="let tabLink of tabLinks"
      [routerLink]="tabLink.link"
      routerLinkActive #rla="routerLinkActive"
      [active]="rla.isActive">
-    <md-icon>{{tabLink.icon}}</md-icon> {{tabLink.label}}
+    <mat-icon>{{tabLink.icon}}</mat-icon> {{tabLink.label}}
   </a>
 </nav>
 <router-outlet></router-outlet>

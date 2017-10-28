@@ -33,6 +33,7 @@
       '@angular/cdk/observers': 'npm:@angular/cdk/bundles/cdk-observers.umd.js',
       '@angular/cdk/overlay': 'npm:@angular/cdk/bundles/cdk-overlay.umd.js',
       '@angular/cdk/portal': 'npm:@angular/cdk/bundles/cdk-portal.umd.js',
+      '@angular/cdk/stepper': 'npm:@angular/cdk/bundles/cdk-stepper.umd.js',
       '@angular/cdk/scrolling': 'npm:@angular/cdk/bundles/cdk-scrolling.umd.js',
       '@angular/cdk/platform': 'npm:@angular/cdk/bundles/cdk-platform.umd.js',
       '@angular/cdk/keycodes': 'npm:@angular/cdk/bundles/cdk-keycodes.umd.js',

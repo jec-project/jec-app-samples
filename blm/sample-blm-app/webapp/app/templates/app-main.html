@@ -1,23 +1,23 @@
 <!-- Main navigation bar -->
-<md-toolbar color="primary">
-  <button md-button routerLink="/welcome">
-    <md-icon>library_books</md-icon>
+<mat-toolbar color="primary">
+  <button mat-button routerLink="/welcome">
+    <mat-icon>library_books</mat-icon>
     Book Library Manager
   </button>
-  <button md-button routerLink="/search">
-    <md-icon>search</md-icon>
+  <button mat-button routerLink="/search">
+    <mat-icon>search</mat-icon>
     Search & Find
   </button>
-  <button md-button disabled>
-    <md-icon>build</md-icon>
+  <button mat-button disabled>
+    <mat-icon>build</mat-icon>
     Edit
   </button>
   <span class="tool-bar-space"></span>
-  <button md-button (click)="goToJEC()">
+  <button mat-button (click)="goToJEC()">
     <img src="../styles/assets/jec-logo-white.svg" width=28/>
     JEC on GitHub
   </button>
-</md-toolbar>
+</mat-toolbar>
 
 <!-- Angular router outlet -->
 <div id="app-wrapper">

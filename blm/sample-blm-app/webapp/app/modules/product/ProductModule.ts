@@ -5,8 +5,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {ProductRoutingModule} from "./ProductRoutingModule";
 
 // Material modules imports:
-import {MdButtonModule, MdIconModule, MdTabsModule,
-        MdCardModule} from '@angular/material';
+import {MatButtonModule, MatIconModule, MatTabsModule,
+        MatCardModule} from '@angular/material';
 
 // Components imports:
 import {ProductComponent} from "../../components/product/ProductComponent";
@@ -21,10 +21,10 @@ import {AuthorDetailsComponent} from "../../components/product/AuthorDetailsComp
     FormsModule,
     ReactiveFormsModule,
     // Material modules:
-    MdButtonModule,
-    MdIconModule,
-    MdTabsModule,
-    MdCardModule
+    MatButtonModule,
+    MatIconModule,
+    MatTabsModule,
+    MatCardModule
   ],
   declarations: [
     ProductComponent,

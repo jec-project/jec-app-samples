@@ -5,9 +5,9 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 
 // Material modules imports:
-import {MdToolbarModule, MdButtonModule, MdIconModule, MdChipsModule,
-        MdCardModule, MdGridListModule, MdInputModule,
-        MdPaginatorModule} from '@angular/material';
+import {MatToolbarModule, MatButtonModule, MatIconModule, MatChipsModule,
+        MatCardModule, MatGridListModule, MatInputModule,
+        MatPaginatorModule} from '@angular/material';
 
 // Modules imports:
 import {AppRoutingModule} from "./AppRoutingModule";
@@ -30,14 +30,14 @@ import {DataStorageService} from "../services/DataStorageService";
     HttpClientModule ,
     AppRoutingModule,
     // Material modules:
-    MdToolbarModule,
-    MdButtonModule,
-    MdIconModule,
-    MdChipsModule,
-    MdCardModule,
-    MdGridListModule,
-    MdInputModule,
-    MdPaginatorModule
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
+    MatChipsModule,
+    MatCardModule,
+    MatGridListModule,
+    MatInputModule,
+    MatPaginatorModule
   ],
   declarations: [
     AppComponent,

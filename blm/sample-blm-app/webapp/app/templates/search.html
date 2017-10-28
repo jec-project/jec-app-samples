@@ -1,44 +1,44 @@
-<h1><md-icon>search</md-icon> Search & Find</h1>
+<h1><mat-icon>search</mat-icon> Search & Find</h1>
 
 <form *ngIf="resultLength === 0">
-  <md-form-field>
-    <input mdInput placeholder="Search for books"
+  <mat-form-field>
+    <input matInput placeholder="Search for books"
                    type="search" [formControl]="token">
-    <md-error>This field is required</md-error>
-  </md-form-field>
-  <button md-mini-fab color="primary" (click)="doSearch()">
-    <md-icon>search</md-icon>
+    <mat-error>This field is required</mat-error>
+  </mat-form-field>
+  <button mat-mini-fab color="primary" (click)="doSearch()">
+    <mat-icon>search</mat-icon>
   </button>
 </form>
 
-<md-card class="example-card" *ngIf="resultLength !== 0">
-  <md-card-header>
-    <md-card-title>
+<mat-card class="example-card" *ngIf="resultLength !== 0">
+  <mat-card-header>
+    <mat-card-title>
       Search result for <strong>{{token.value}}</strong>
-    </md-card-title>
+    </mat-card-title>
     <span class="tool-bar-space"></span>
-    <md-paginator [length]="resultLength"
+    <mat-paginator [length]="resultLength"
                   [pageSize]="pageSize"
                   (page)="pageChange($event)">
-    </md-paginator>
-    <button md-mini-fab color="primary" (click)="resetSearch()">
-      <md-icon>close</md-icon>
+    </mat-paginator>
+    <button mat-mini-fab color="primary" (click)="resetSearch()">
+      <mat-icon>close</mat-icon>
     </button>
-  </md-card-header>
-  <md-card-content>
-    <md-grid-list cols="4" rowHeight="250px">
-      <md-grid-tile *ngFor="let book of books">
+  </mat-card-header>
+  <mat-card-content>
+    <mat-grid-list cols="4" rowHeight="250px">
+      <mat-grid-tile *ngFor="let book of books">
         <img src="http://localhost:3003/sample-blm-images/covers/{{book.cover}}"
              class="book-tile"
              alt="{{book.title}}"
              (click)="showDetails(book)">
-          <md-grid-tile-footer>
-            <h3 md-line>{{book.title}}</h3>
-            <h4 md-line>{{book.author.name}}</h4>
-            <span><md-icon>flag</md-icon></span>
-        </md-grid-tile-footer>
-      </md-grid-tile>
-    </md-grid-list>
-  </md-card-content>
-</md-card>
+          <mat-grid-tile-footer>
+            <h3 mat-line>{{book.title}}</h3>
+            <h4 mat-line>{{book.author.name}}</h4>
+            <span><mat-icon>flag</mat-icon></span>
+        </mat-grid-tile-footer>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </mat-card-content>
+</mat-card>
 
