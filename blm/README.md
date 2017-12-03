@@ -53,7 +53,7 @@ $ npm install
 
 ## Update Release Notes
 
-**Current stable release:** [1.0.0](CHANGELOG.md#blm-blm)
+**Current stable release:** [1.0.1](CHANGELOG.md#blm-1.0.1)
  
 For a complete listing of release notes for all BLM update releases, see the [CHANGELOG](CHANGELOG.md) file. 
 

@@ -3,6 +3,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
+import {HttpModule} from "@angular/http";
 
 // Material modules imports:
 import {MatToolbarModule, MatButtonModule, MatIconModule, MatChipsModule,
@@ -29,6 +30,7 @@ import {DataStorageService} from "../services/DataStorageService";
     ReactiveFormsModule,
     HttpClientModule ,
     AppRoutingModule,
+    HttpModule,
     // Material modules:
     MatToolbarModule,
     MatButtonModule,

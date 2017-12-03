@@ -26,10 +26,9 @@ h1{
 }
 
 h1 .mat-icon{
-  font-size: 2.5rem;
-  height: 2.5rem;
-  padding-right: 1rem;
-  vertical-align: bottom;
+  padding-right: 0.2rem;
+  transform: scale(1.5);
+  color: #3f51b5;
 }
 
 .jumbotron{

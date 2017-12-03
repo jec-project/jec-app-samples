@@ -1,9 +1,9 @@
-<h1><mat-icon>book</mat-icon> {{bookTitle}}</h1>
+<h1><mat-icon svgIcon="book"></mat-icon> {{bookTitle}}</h1>
 
 <button mat-mini-fab
         class="close-details-button"
         color="primary" (click)="closeDetails()">
-  <mat-icon>close</mat-icon>
+  <mat-icon svgIcon="close"></mat-icon>
 </button>
 
 <nav mat-tab-nav-bar>
@@ -12,7 +12,7 @@
      [routerLink]="tabLink.link"
      routerLinkActive #rla="routerLinkActive"
      [active]="rla.isActive">
-    <mat-icon>{{tabLink.icon}}</mat-icon> {{tabLink.label}}
+    <mat-icon svgIcon="{{tabLink.icon}}"></mat-icon> {{tabLink.label}}
   </a>
 </nav>
 <router-outlet></router-outlet>

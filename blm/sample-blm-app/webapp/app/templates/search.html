@@ -1,4 +1,4 @@
-<h1><mat-icon>search</mat-icon> Search & Find</h1>
+<h1><mat-icon svgIcon="search"></mat-icon> Search & Find</h1>
 
 <form *ngIf="resultLength === 0">
   <mat-form-field>
@@ -7,7 +7,7 @@
     <mat-error>This field is required</mat-error>
   </mat-form-field>
   <button mat-mini-fab color="primary" (click)="doSearch()">
-    <mat-icon>search</mat-icon>
+    <mat-icon svgIcon="search"></mat-icon>
   </button>
 </form>
 
@@ -22,7 +22,7 @@
                   (page)="pageChange($event)">
     </mat-paginator>
     <button mat-mini-fab color="primary" (click)="resetSearch()">
-      <mat-icon>close</mat-icon>
+      <mat-icon svgIcon="close"></mat-icon>
     </button>
   </mat-card-header>
   <mat-card-content>
@@ -35,7 +35,7 @@
           <mat-grid-tile-footer>
             <h3 mat-line>{{book.title}}</h3>
             <h4 mat-line>{{book.author.name}}</h4>
-            <span><mat-icon>flag</mat-icon></span>
+            <span><mat-icon svgIcon="flag"></mat-icon></span>
         </mat-grid-tile-footer>
       </mat-grid-tile>
     </mat-grid-list>
