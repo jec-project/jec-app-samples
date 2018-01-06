@@ -26,7 +26,7 @@ All JEC sample projects need the following system parameters in order to work co
 All JEC sample projects are licensed under Apache 2.0. Full license text is available in [LICENSE](LICENSE).
 
 ```
-Copyright 2016-2017 Pascal ECHEMANN.
+Copyright 2016-2018 Pascal ECHEMANN.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
