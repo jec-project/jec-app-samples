@@ -27,8 +27,8 @@ export class AuthorDetailsComponent implements OnInit {
    * @override
    */
   public ngOnInit():void {
-    let url:string = "http://localhost:3004/sample-blm-authors/authors/"
-                     + this._storageService.getBook().author.id;
+    const url:string = "http://localhost:3004/sample-blm-authors/authors/"
+                       + this._storageService.getBook().author.id;
     this._httpClient.get(url)
     .subscribe(
       data => {

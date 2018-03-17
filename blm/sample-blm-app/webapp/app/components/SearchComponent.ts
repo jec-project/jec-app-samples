@@ -61,7 +61,7 @@ export class SearchComponent implements OnInit {
    * the search token.
    */
   public doSearch():void {
-    let tokenValue:string = this.token.value;
+    const tokenValue:string = this.token.value;
     let url:string = "http://localhost:3002/sample-blm-books/books";
     let params:HttpParams = null;
     if(tokenValue)  {
@@ -98,8 +98,8 @@ export class SearchComponent implements OnInit {
    * Paginates the results of the search.
    */
   public paginate():void {
-    let bookList:any[] = this._storageService.getBookList();
-    let from:number = this.pageId * this.pageSize;
+    const bookList:any[] = this._storageService.getBookList();
+    const from:number = this.pageId * this.pageSize;
     let to:number = from + this.pageSize;
     if(to > this.resultLength) to = this.resultLength;
     this.books = bookList.slice(from, to);
