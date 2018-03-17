@@ -1,6 +1,6 @@
 //  DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 //
-//   Copyright 2016-2018 Pascal ECHEMANN.
+//   Copyright 2016-2017 Pascal ECHEMANN.
 //
 //   Licensed under the Apache License, Version 2.0 (the "License");
 //   you may not use this file except in compliance with the License.
@@ -15,6 +15,7 @@
 //   limitations under the License.
 
 import {EncodingFormat} from "jec-commons";
+import {Injectable} from "jec-jdi";
 import {BooksDao} from "../BooksDao";
 import * as fs from "fs";
 
@@ -24,6 +25,10 @@ const FILE:string = process.cwd() + "/workspace/sample-blm-data/files/books.json
  * A BooksDao interface implementation that provides data from a local JSON
  * file.
  */
+@Injectable({
+  type: BooksDao,
+  retention: ["DEV"]
+})
 export class LocalBooksDao implements BooksDao {
 
   /**
@@ -43,15 +48,18 @@ export class LocalBooksDao implements BooksDao {
    * @inheritDoc
    */
   public findBooks(token:string, result:(data:any, err:any)=>void):void {
+    let found:any[] = null;
+    let booksData:any[] = null;
+    let book:any = null;
+    let fields:string = null;
+    let len:number = -1;
     fs.readFile(
       FILE,
       EncodingFormat.UTF8,
       (err:NodeJS.ErrnoException, data:string)=>{
-        let found:any[] = [];
-        let booksData:any[] = JSON.parse(data);
-        let book:any = null;
-        let fields:string = null;
-        let len:number = booksData.length;
+        found = [];
+        booksData = JSON.parse(data);
+        len = booksData.length;
         while(len--) {
             book = booksData[len];
             fields = book.title + book.summary + book.author.name;

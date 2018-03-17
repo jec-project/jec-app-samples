@@ -1,6 +1,6 @@
 //  DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 //
-//   Copyright 2016-2018 Pascal ECHEMANN.
+//   Copyright 2016-2017 Pascal ECHEMANN.
 //
 //   Licensed under the Apache License, Version 2.0 (the "License");
 //   you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 //   See the License for the specific language governing permissions and
 //   limitations under the License.
 
+import {Inject} from "jec-jdi";
 import {ResourcePath, GET, PathParam, Exit, RootPathRefs, QueryParam} from "jec-jars";
 import {BooksDao} from "../services/BooksDao";
-import {LocalBooksDao} from "../services/impl/LocalBooksDao";
 
 /**
  * A sample service that provide access to books information.
@@ -28,13 +28,12 @@ import {LocalBooksDao} from "../services/impl/LocalBooksDao";
 })
 export class Books {
 
-    /*@Inject("services.BooksDao")
-    public dao:BooksDao;*/
-    public dao:BooksDao = new LocalBooksDao();
+    @Inject({ type: BooksDao })
+    private _dao:BooksDao;
 
     @GET()
     public getBooks(@Exit exit:Function):void {
-      this.dao.getBooks((data:any, err:any)=>{
+      this._dao.getBooks((data:any, err:any)=> {
         exit(data, err);
       });
     }
@@ -44,7 +43,7 @@ export class Books {
     })
     public findBook(@QueryParam token:string,
                     @Exit exit:Function):void {
-      this.dao.findBooks(token, (data:any, err:any)=>{
+      this._dao.findBooks(token, (data:any, err:any)=> {
         exit(data, err);
       });
     }

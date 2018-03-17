@@ -1,6 +1,6 @@
 //  DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 //
-//   Copyright 2016-2018 Pascal ECHEMANN.
+//   Copyright 2016-2017 Pascal ECHEMANN.
 //
 //   Licensed under the Apache License, Version 2.0 (the "License");
 //   you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 
 import {ResourcePath, GET, PathParam, Exit, RootPathRefs, QueryParam} from "jec-jars";
 import {AuthorsDao} from "../services/AuthorsDao";
-import {LocalAuthorsDao} from "../services/impl/LocalAuthorsDao";
+import {Inject} from "jec-jdi";
 
 /**
  * A sample service that provide access to authors information.
@@ -28,13 +28,12 @@ import {LocalAuthorsDao} from "../services/impl/LocalAuthorsDao";
 })
 export class Authors {
 
-    /*@Inject("services.AuthorsDao")
-    public dao:AuthorsDao;*/
-    public dao:AuthorsDao = new LocalAuthorsDao();
+    @Inject({ type: AuthorsDao })
+    private _dao:AuthorsDao;
 
     @GET()
     public getAuthors(@Exit exit:Function):void {
-      this.dao.getAuthors((data:any, err:any)=>{
+      this._dao.getAuthors((data:any, err:any)=>{
         exit(data, err);
       });
     }
@@ -44,7 +43,7 @@ export class Authors {
     })
     public getAuthorById(@PathParam authorId:string,
                          @Exit exit:Function):void {
-      this.dao.getAuthorById(authorId, (data:any, err:any)=>{
+      this._dao.getAuthorById(authorId, (data:any, err:any)=>{
         exit(data, err);
       });
     }

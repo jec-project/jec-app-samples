@@ -14,29 +14,33 @@
 //   See the License for the specific language governing permissions and
 //   limitations under the License.
 
-import {Interface} from "jec-commons";
+import {EncodingFormat} from "jec-commons";
+import {Injectable} from "jec-jdi";
+import {BooksDao} from "../BooksDao";
+
+const FILE:string = process.cwd() + "/workspace/sample-blm-data/files/books.json";
 
 /**
- * A convenient interface that exposes the API to access books data.
+ * A BooksDao interface implementation that provides data from a MongoDB data
+ * base.
  */
-export interface BooksDao {
+/*@Injectable({
+  type: BooksDao,
+  retention: ["PROD"]
+})*/
+export class MongoBooksDao implements BooksDao {
 
   /**
-   * Returns all books.
+   * @inheritDoc
    */
-  getBooks(result:(data:any, err:any)=>void):void;
+  public getBooks(result:(data:any, err:any)=>void):void {
+    result(null, null);
+  }
 
   /**
-   * Returns all books that match the specified token.
-   * 
-   * @param {string} token the token for which to find books.
-   * @param {Function} result the callback function that returns an  array of
-   *                          books.
+   * @inheritDoc
    */
-  findBooks(token:string, result:(data:any, err:any)=>void):void;
+  public findBooks(token:string, result:(data:any, err:any)=>void):void {
+    result(null, null);
+  }
 }
-
-/*
- * BooksDao interface declaration.
- */
-export const BooksDao:Interface = Interface("services.BooksDao");

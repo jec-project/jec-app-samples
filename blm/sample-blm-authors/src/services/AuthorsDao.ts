@@ -1,6 +1,6 @@
 //  DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 //
-//   Copyright 2016-2018 Pascal ECHEMANN.
+//   Copyright 2016-2017 Pascal ECHEMANN.
 //
 //   Licensed under the Apache License, Version 2.0 (the "License");
 //   you may not use this file except in compliance with the License.
@@ -13,6 +13,8 @@
 //   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 //   See the License for the specific language governing permissions and
 //   limitations under the License.
+
+import {Interface} from "jec-commons";
 
 /**
  * A convenient interface that exposes the API to access authors data.
@@ -33,3 +35,8 @@ export interface AuthorsDao {
    */
   getAuthorById(authorId:string, result:(data:any, err:any)=>void):void;
 }
+
+/*
+ * AuthorsDao interface declaration.
+ */
+export const AuthorsDao:Interface = Interface("services.AuthorsDao");

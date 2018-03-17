@@ -1,6 +1,6 @@
 //  DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 //
-//   Copyright 2016-2018 Pascal ECHEMANN.
+//   Copyright 2016-2017 Pascal ECHEMANN.
 //
 //   Licensed under the Apache License, Version 2.0 (the "License");
 //   you may not use this file except in compliance with the License.
@@ -15,6 +15,7 @@
 //   limitations under the License.
 
 import {EncodingFormat} from "jec-commons";
+import {Injectable} from "jec-jdi";
 import {AuthorsDao} from "../AuthorsDao";
 import * as fs from "fs";
 
@@ -24,6 +25,10 @@ const FILE:string = process.cwd() + "/workspace/sample-blm-data/files/authors.js
  * An AuthorsDao interface implementation that provides data from a local JSON
  * file.
  */
+@Injectable({
+  type: AuthorsDao,
+  retention: ["DEV"]
+})
 export class LocalAuthorsDao implements AuthorsDao {
 
   /**
@@ -47,10 +52,10 @@ export class LocalAuthorsDao implements AuthorsDao {
       FILE,
       EncodingFormat.UTF8,
       (err:NodeJS.ErrnoException, data:string)=>{
-        let authorsData:any[] = JSON.parse(data);
+        const authorsData:any[] = JSON.parse(data);
+        const id:number = parseInt(authorId);
         let author:any = null;
         let found:any = null;
-        let id:number = parseInt(authorId);
         let len:number = authorsData.length;
         while(len--) {
           author = authorsData[len];

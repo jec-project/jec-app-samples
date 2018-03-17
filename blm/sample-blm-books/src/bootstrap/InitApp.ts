@@ -1,6 +1,6 @@
 //  DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 //
-//   Copyright 2016-2018 Pascal ECHEMANN.
+//   Copyright 2016-2017 Pascal ECHEMANN.
 //
 //   Licensed under the Apache License, Version 2.0 (the "License");
 //   you may not use this file except in compliance with the License.
@@ -14,12 +14,12 @@
 //   See the License for the specific language governing permissions and
 //   limitations under the License.
 
-import {AbstractBootstrapScript, Bootstrap} from "jec-commons";
+import {AbstractBootstrapScript, Bootstrap } from "jec-commons";
 import {DomainContainer} from "jec-glasscat-core";
 import {SandcatBuilder} from "jec-sandcat";
 
 /**
- * Runs Sandcat initialization script.
+ * Runs frameworks initialization script.
  */
 @Bootstrap()
 export class InitApp extends AbstractBootstrapScript {
