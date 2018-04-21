@@ -29,11 +29,11 @@ import {BooksDao} from "../services/BooksDao";
 export class Books {
 
     @Inject({ type: BooksDao })
-    private _dao:BooksDao;
+    public dao:BooksDao;
 
     @GET()
     public getBooks(@Exit exit:Function):void {
-      this._dao.getBooks((data:any, err:any)=> {
+      this.dao.getBooks((data:any, err:any)=> {
         exit(data, err);
       });
     }
@@ -43,7 +43,7 @@ export class Books {
     })
     public findBook(@QueryParam token:string,
                     @Exit exit:Function):void {
-      this._dao.findBooks(token, (data:any, err:any)=> {
+      this.dao.findBooks(token, (data:any, err:any)=> {
         exit(data, err);
       });
     }

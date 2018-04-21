@@ -1,6 +1,7 @@
 import {HttpJslet, WebJslet, HttpRequest, HttpResponse} from "jec-exchange";
-import {HttpHeader} from "jec-commons";
 import * as path from "path";
+import {HeaderService} from "../services/HeaderService";
+import {Inject} from "jec-jdi";
 
 const PATH:string = process.cwd() + "/workspace/sample-blm-data/images/books/covers/";
 
@@ -12,11 +13,12 @@ const PATH:string = process.cwd() + "/workspace/sample-blm-data/images/books/cov
   urlPatterns: ["/covers/*"]
 })
 export class Covers extends HttpJslet {
-  
+
+  @Inject({ type: HeaderService }) public headerService:any;
+
   public doGet(req:HttpRequest, res:HttpResponse, exit:Function):void {
     const filePath:string = PATH + path.basename(req.getPath());
-    res.setHeader(HttpHeader.ACCESS_CONTROL_ALLOW_ORIGIN, "http://localhost:3001");
-    res.setHeader(HttpHeader.CACHE_CONTROL, "public, max-age=31536000");
+    this.headerService.setHeaders(res);
     exit(req, res.sendFile(filePath), null);
   }
 }

@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "description": "Book Library Manager sample 'books' microservice.",
   "author": "ONSOFT SYSTEMS",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha juta/tiger/run-unit-tests"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  }
 }
