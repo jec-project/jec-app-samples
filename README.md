@@ -1,6 +1,6 @@
 # JEC Sample Projects
 
-JEC Sample Projects are a part of the [JavaScript Entreprise Container][jec-url] projects.
+JEC Sample Projects are a part of the [JavaScript Enterprise Container][jec-url] projects.
 
 [![][jec-logo]][jec-url]
 
@@ -41,5 +41,5 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-[jec-url]: https://github.com/pechemann/JEC
+[jec-url]: https://jecproject.org
 [jec-logo]: https://raw.githubusercontent.com/pechemann/JEC/master/assets/jec-logos/jec-logo.png

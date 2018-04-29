@@ -1,6 +1,6 @@
 # Book Library Manager Sample Project
 
-The Book Library Manager _(BLM)_ is a part of the [JavaScript Entreprise Container][jec-url] projects.
+The Book Library Manager _(BLM)_ is a part of the [JavaScript Enterprise Container][jec-url] projects.
 
 [![][jec-logo]][jec-url]
 
@@ -8,7 +8,7 @@ BLM is a sample project that shows best practices for creating JEC modular appli
 The project is composed of an Angular app which uses REST APIs to call several microservices that render specific data.
 
 
-All BLM Entreprise JavaScript Projects _(EJPs)_ have been created from the default [Wildcat archetypes](https://github.com/pechemann/jec-wildcat-archetypes).
+All BLM Enterprise JavaScript Projects _(EJPs)_ have been created from the default [Wildcat archetypes](https://github.com/pechemann/jec-wildcat-archetypes).
 
 ## The Sample Application
 
@@ -76,5 +76,5 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-[jec-url]: https://github.com/pechemann/JEC
+[jec-url]: https://jecproject.org
 [jec-logo]: https://raw.githubusercontent.com/pechemann/JEC/master/assets/jec-logos/jec-logo.png
