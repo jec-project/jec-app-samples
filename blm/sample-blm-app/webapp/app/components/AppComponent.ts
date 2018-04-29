@@ -27,6 +27,6 @@ export class AppComponent {
    * Navigates to the JEC project on GitHub.
    */
   public goToJEC():void {
-    window.location.href = "https://github.com/pechemann/JEC";
+    window.location.href = "http://jecproject.org";
   }
 }
