@@ -9,7 +9,7 @@ The following table sum up the list of available sample projects:
 
 | Project | Repository | Description |
 | ------- | ---------- | ----------- |
-| Book Library Manager | [jec-app-samples/blm](https://github.com/pechemann/jec-app-samples/tree/master/blm) | A modular project that show how to create scalable applications based upon microservices. |
+| Book Library Manager | [jec-app-samples/blm](https://github.com/jec-project/jec-app-samples/tree/master/blm) | A modular project that show how to create scalable applications based upon microservices. |
 
 
 ## Requirements
@@ -42,4 +42,4 @@ limitations under the License.
 ```
 
 [jec-url]: http://jecproject.org
-[jec-logo]: https://raw.githubusercontent.com/pechemann/JEC/master/assets/jec-logos/jec-logo.png
+[jec-logo]: https://raw.githubusercontent.com/jec-project/JEC/master/assets/jec-logos/jec-logo.png

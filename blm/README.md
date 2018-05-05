@@ -8,13 +8,13 @@ BLM is a sample project that shows best practices for creating JEC modular appli
 The project is composed of an Angular app which uses REST APIs to call several microservices that render specific data.
 
 
-All BLM Enterprise JavaScript Projects _(EJPs)_ have been created from the default [Wildcat archetypes](https://github.com/pechemann/jec-wildcat-archetypes).
+All BLM Enterprise JavaScript Projects _(EJPs)_ have been created from the default [Wildcat archetypes](https://github.com/jec-project/jec-wildcat-archetypes).
 
 ## The Sample Application
 
 The BLM application we will install is a very basic management system. It will provide users access to a book collection with basic functionalities, such as search, books summary and authors biographies.
 
-![Book Library Manager](https://raw.githubusercontent.com/pechemann/jec-app-samples/master/blm/blm-preview.png "Book Library Manager")
+![Book Library Manager](https://raw.githubusercontent.com/jec-project/jec-app-samples/master/blm/blm-preview.png "Book Library Manager")
 
 ## Requirements
 
@@ -27,7 +27,7 @@ The BLM project needs the following system parameters in order to work correctly
 
 ## Installation
 
-Before you download and unzip the BLM project module, you must have a [GlassCat server](https://github.com/pechemann/jec-glasscat) installed.
+Before you download and unzip the BLM project module, you must have a [GlassCat server](https://github.com/jec-project/jec-glasscat) installed.
 
 1. Copy all projects in the `blm` folder into the GlassCat server `workspace`.
 2. Install Angular dependencies:
@@ -77,4 +77,4 @@ limitations under the License.
 ```
 
 [jec-url]: http://jecproject.org
-[jec-logo]: https://raw.githubusercontent.com/pechemann/JEC/master/assets/jec-logos/jec-logo.png
+[jec-logo]: https://raw.githubusercontent.com/jec-project/JEC/master/assets/jec-logos/jec-logo.png
