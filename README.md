@@ -10,6 +10,7 @@ The following table sum up the list of available sample projects:
 | Project | Repository | Description |
 | ------- | ---------- | ----------- |
 | Book Library Manager | [jec-app-samples/blm](https://github.com/jec-project/jec-app-samples/tree/master/blm) | A modular project that show how to create scalable applications based upon microservices. |
+| RESTful sample application | [jec-app-samples/rest-api-sample](https://github.com/jec-project/jec-app-samples/tree/master/rest-api-sample) | Shows best practices for creating JEC RESTful applications based on the JavaScript API for RESTful Services _(JARS)_ specification. |
 
 
 ## Requirements
