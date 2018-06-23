@@ -1,0 +1,9 @@
+{
+	"webapp": {
+		"name": "rest-api-sample",
+		"description": "JEC RESTful sample application.",
+		"version": "0.0.1",
+		"contextRoot": "rest-api-sample",
+		"welcomeFile": "index.html"
+	}
+}

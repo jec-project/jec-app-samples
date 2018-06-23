@@ -1,0 +1,11 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.rulers": [80],
+    "editor.tabSize": 2,
+    "files.exclude": {
+        "**/*.js": true
+    },
+    "files.associations": {
+        "*.ejs": "html"
+    }
+}

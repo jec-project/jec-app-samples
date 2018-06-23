@@ -1,0 +1,37 @@
+#####################################
+# REST API Sample Project .gitignore
+# Please maintain alphabetical order!
+#####################################
+
+#####################################
+# Utilities
+#####################################
+
+# Ignore TypeScript temp file
+*tscommand*.*
+
+# Ignore VSCE folder
+*/**/.vscode
+
+# Ignore TSC cache folder 
+*/**/.tscache
+
+#####################################
+# node_modules
+#####################################
+
+# Ignore 'node_modules' folder
+node_modules
+
+#####################################
+# *.js
+#####################################
+
+# Ignore JavaScript files in juta folder
+juta/**/*.js
+
+# Ignore JavaScript files in src folder
+src/**/*.js
+
+# Ignore JavaScript files in test folder
+test/**/*.js
