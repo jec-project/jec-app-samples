@@ -14,34 +14,18 @@
 //   See the License for the specific language governing permissions and
 //   limitations under the License.
 
-import { TestSuite, Test, Before, After, Async } from "jec-juta";
-import { expect } from "chai";
-import { Users } from "../../src/resource/Users";
+import {RootPath} from "jec-jars";
 
-@TestSuite({
-  description: "Test the Users class methods"
+/**
+ * The first version of the <code>users</code> resource.
+ */
+@RootPath({
+  path: "/sample.app",
+  ref: "users-v1",
+  version: {
+    prefix: "v",
+    major: 1,
+    minor: 0
+  }
 })
-export class UsersTest {
-
-  public users:Users = null;
-
-  @Before()
-  public initTest():void {
-    this.users = new Users();
-  }
-
-  @After()
-  public resetTest():void {
-    this.users = null;
-  }
-
-  @Test({
-    description: "should return the complete list of user registered in the app"
-  })
-  public getUsersTest(@Async done:Function):void {
-    this.users.getUsers((data:any, err:any)=>{
-      expect(data.length).to.equals(1);
-      done();
-    });
-  }
-}
+export class UsersV1 {}

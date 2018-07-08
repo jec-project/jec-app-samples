@@ -16,18 +16,18 @@
 
 import { TestSuite, Test, Before, After, Async } from "jec-juta";
 import { expect } from "chai";
-import { Users } from "../../src/resource/Users";
+import { UsersV2 } from "../../src/resource/UsersV2";
 
 @TestSuite({
-  description: "Test the Users class methods"
+  description: "Test the UsersV2 class methods"
 })
-export class UsersTest {
+export class UsersV2Test {
 
-  public users:Users = null;
+  public users:UsersV2 = null;
 
   @Before()
   public initTest():void {
-    this.users = new Users();
+    this.users = new UsersV2();
   }
 
   @After()

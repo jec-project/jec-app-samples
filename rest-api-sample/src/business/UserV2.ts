@@ -14,34 +14,30 @@
 //   See the License for the specific language governing permissions and
 //   limitations under the License.
 
-import { TestSuite, Test, Before, After, Async } from "jec-juta";
-import { expect } from "chai";
-import { Users } from "../../src/resource/Users";
+import {Rights} from "./Rights";
 
-@TestSuite({
-  description: "Test the Users class methods"
-})
-export class UsersTest {
+/**
+ * Represents a complex user.
+ */
+export class UserV2 {
 
-  public users:Users = null;
+  /**
+   * The user's first name.
+   */
+  public firstname:string = null;
 
-  @Before()
-  public initTest():void {
-    this.users = new Users();
-  }
+  /**
+   * The user's last name.
+   */
+  public lastname:string = null;
 
-  @After()
-  public resetTest():void {
-    this.users = null;
-  }
+  /**
+   * The user's e-mail.
+   */
+  public email:string = null;
 
-  @Test({
-    description: "should return the complete list of user registered in the app"
-  })
-  public getUsersTest(@Async done:Function):void {
-    this.users.getUsers((data:any, err:any)=>{
-      expect(data.length).to.equals(1);
-      done();
-    });
-  }
+  /**
+   * The user's access rights.
+   */
+  public rights:Rights = Rights.NONE;
 }

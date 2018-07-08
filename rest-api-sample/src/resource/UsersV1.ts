@@ -14,18 +14,21 @@
 //   See the License for the specific language governing permissions and
 //   limitations under the License.
 
-import {ResourcePath, GET, Exit} from "jec-jars";
+import {ResourcePath, RootPathRefs, GET, Exit} from "jec-jars";
 import {User} from "../business/User";
 import {Rights} from "../business/Rights";
 
 /**
- * Exposes all application users as a REST resource.
+ * Exposes all application users as a REST resource. Resource path is
+ * <code>http://localhost:8484/rest-api-sample/sample.app/v1.0/users</code>.
  */
 @ResourcePath("users")
-export class Users {
+@RootPathRefs(["users-v1"])
+export class UsersV1 {
   
   /**
-   * Returns the list of users registered in the app.
+   * Returns the list of users registered in the app. User objects are of the
+   * type of <code>User</code>.
    * 
    * @param exit The callback function used to send data to the HTTP response.
    */
