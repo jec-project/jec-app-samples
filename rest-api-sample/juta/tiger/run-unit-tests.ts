@@ -17,18 +17,19 @@
 import { TestStats } from "jec-juta";
 import { Tiger, TigerFactory } from "jec-tiger";
 import { JarsMock } from "jec-jars-mock";
+import { JdiMock } from "jec-jdi-mock";
 
 const factory:TigerFactory = new TigerFactory();
 const tiger:Tiger = factory.create();
 tiger.beforeProcess(()=>{
   JarsMock.getInstance().createContext();
+  JdiMock.getInstance().createContext();
 });
 tiger.process((stats:TestStats)=> {
   if(stats.error) console.error(stats.error);
   else {
     console.log(
 `Test stats:
-- test lookup process duration: ${stats.time}
 - number of test suites: ${stats.numTestSuites}
 - number of disabled test suites: ${stats.numDisabledTestSuites}
 - number of synchronous test cases: ${stats.numTests}

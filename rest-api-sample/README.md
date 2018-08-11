@@ -38,7 +38,7 @@ $ npm install
 
 ## Update Release Notes
 
-**Current stable release:** [0.9.1](CHANGELOG.md#rest-api-sample-0.9.1)
+**Current stable release:** [0.9.2](CHANGELOG.md#rest-api-sample-0.9.2)
  
 For a complete listing of release notes for all update releases, see the [CHANGELOG](CHANGELOG.md) file. 
 

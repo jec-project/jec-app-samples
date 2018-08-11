@@ -16,51 +16,41 @@
 
 import { TestSuite, Test, Before, After } from "jec-juta";
 import { expect } from "chai";
-import { UserV2 } from "../../src/business/UserV2";
-import { Rights } from "../../src/business/Rights";
+import { UsersException } from "../../src/exception/UsersException";
+import { HttpStatusCode } from "jec-commons";
 
 @TestSuite({
-  description: "Test the UserV2 class members"
+  description: "Test the UsersException class methods"
 })
-export class UserV2Test {
+export class UsersExceptionTest {
 
-  public user:UserV2 = null;
+  private readonly MESSAGE:string = "error message";
+
+  private readonly ERROR_CODE:HttpStatusCode = HttpStatusCode.OK;
+
+  public error:UsersException = null;
 
   @Before()
   public initTest():void {
-    this.user = new UserV2();
+    this.error = new UsersException(this.MESSAGE, this.ERROR_CODE);
   }
 
   @After()
   public resetTest():void {
-    this.user = null;
+    this.error = null;
   }
 
   @Test({
-    description: "'firstname' should be 'null' by default"
+    description: "should return the same message as passed in the constructor parameters"
   })
-  public getFirstameTest():void {
-    expect(this.user.firstname).to.be.null;
+  public messageTest():void {
+    expect(this.error.message).to.equals(this.MESSAGE);
   }
   
   @Test({
-    description: "'lastname' should be 'null' by default"
+    description: "should return the same error code as passed in the constructor parameters"
   })
-  public getLastnameTest():void {
-    expect(this.user.lastname).to.be.null;
-  }
-  
-  @Test({
-    description: "'email' should be 'null' by default"
-  })
-  public getEmailTest():void {
-    expect(this.user.email).to.be.null;
-  }
-  
-  @Test({
-    description: "'rights' should be 'Rights.NONE' by default"
-  })
-  public getRightsTest():void {
-    expect(this.user.rights).to.equal(Rights.NONE);
+  public errorCodeTest():void {
+    expect(this.error.errorCode).to.equals(this.ERROR_CODE);
   }
 }

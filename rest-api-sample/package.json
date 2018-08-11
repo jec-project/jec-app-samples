@@ -1,6 +1,6 @@
 {
   "name": "rest-api-sample",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "JEC RESTful sample application.",
   "author": "Pascal ECHEMANN",
   "license": "SEE LICENSE IN LICENSE",
@@ -8,6 +8,6 @@
     "test": "mocha juta/tiger/run-unit-tests"
   },
   "devDependencies": {
-    "mocha": "^3.5.0"
+    "mocha": "^5.2.0"
   }
 }

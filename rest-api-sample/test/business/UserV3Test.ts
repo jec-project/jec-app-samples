@@ -16,19 +16,21 @@
 
 import { TestSuite, Test, Before, After } from "jec-juta";
 import { expect } from "chai";
-import { UserV2 } from "../../src/business/UserV2";
+import { UserV3 } from "../../src/business/UserV3";
 import { Rights } from "../../src/business/Rights";
 
 @TestSuite({
-  description: "Test the UserV2 class members"
+  description: "Test the UserV3 class members"
 })
-export class UserV2Test {
+export class UserV3Test {
 
-  public user:UserV2 = null;
+  public user:UserV3 = null;
+
+  public readonly userId:string = "bd92323b-95b2-4beb-8b62-33ebb5bdb37d";
 
   @Before()
   public initTest():void {
-    this.user = new UserV2();
+    this.user = new UserV3(this.userId);
   }
 
   @After()
@@ -36,6 +38,13 @@ export class UserV2Test {
     this.user = null;
   }
 
+  @Test({
+    description: "'firstname' should be the same value as passed to the constructor"
+  })
+  public getIdTest():void {
+    expect(this.user.id).to.equal(this.userId);
+  }
+  
   @Test({
     description: "'firstname' should be 'null' by default"
   })

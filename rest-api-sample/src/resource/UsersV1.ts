@@ -30,7 +30,8 @@ export class UsersV1 {
    * Returns the list of users registered in the app. User objects are of the
    * type of <code>User</code>.
    * 
-   * @param exit The callback function used to send data to the HTTP response.
+   * @param {Function} exit the callback function used to send data to the HTTP
+   *                        response.
    */
   @GET()
   public getUsers(@Exit exit:Function):void {
